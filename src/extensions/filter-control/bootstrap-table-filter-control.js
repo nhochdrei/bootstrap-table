@@ -595,6 +595,8 @@
                     [value, item, i], value);
                 }
 
+                value = $(value).html() ? $(value).text() : value;
+
                 if($.inArray(key, that.header.fields) !== -1 ) {
                     if(typeof value === 'string' || typeof value === 'number') {
                         if (thisColumn.filterStrictSearch) {
