@@ -30,3 +30,7 @@ nbproject
 .localized
 Icon
 .vscode
+
+target
+dist
+docs
